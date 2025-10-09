@@ -1,0 +1,25 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"author": {
+		"name": "Inomjon Ismanaliyev",
+		"email": "inomjonismanaliev@gmail.com"
+	},
+	"main": "src/index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^17.2.3",
+		"express": "^5.1.0",
+		"firebase-admin": "^13.5.0",
+		"joi": "^18.0.1",
+		"mongoose": "^8.19.1"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.10"
+	}
+}
