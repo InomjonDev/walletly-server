@@ -9,8 +9,14 @@ const categorySchema = new mongoose.Schema({
 		type: String,
 		required: true,
 	},
-	icon: {
+	type: {
 		type: String,
+		enum: ['income', 'expense'],
+		required: true,
+	},
+	cat_id: {
+		type: String,
+		require: true,
 	},
 })
 
