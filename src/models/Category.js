@@ -12,9 +12,6 @@ const categorySchema = new mongoose.Schema({
 	icon: {
 		type: String,
 	},
-	color: {
-		type: String,
-	},
 })
 
 module.exports = mongoose.model('Category', categorySchema)
