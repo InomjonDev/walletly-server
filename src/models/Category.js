@@ -20,7 +20,7 @@ const categorySchema = new mongoose.Schema({
 	},
 	cat_icon: {
 		type: String,
-		required: true,
+		required: false,
 	},
 })
 
