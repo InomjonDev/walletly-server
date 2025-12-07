@@ -18,6 +18,10 @@ const categorySchema = new mongoose.Schema({
 		type: String,
 		require: true,
 	},
+	cat_icon: {
+		type: String,
+		required: true,
+	},
 })
 
 module.exports = mongoose.model('Category', categorySchema)
